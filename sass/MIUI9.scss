@@ -675,7 +675,7 @@ html{
 }
 
 
-
+//畅快体验
 .exp_one{
   height: 500px;
   border-bottom:1px solid #cccccc;
@@ -739,12 +739,10 @@ html{
     font-size:50px;
     margin:100px 0 40px 0;
     text-align: center;
-    color:$color;
   }
   .font_three{
     text-align: center;
     font-size:18px;
-    color:$color;
   }
 }
 .exp_four{
@@ -818,6 +816,7 @@ html{
       margin-top: 200px;
       h2{
         font-size: 50px;
+        margin-bottom:40px;
         color:$color;
       }
     }
@@ -854,6 +853,7 @@ html{
       margin-top: 250px;
       h2{
         font-size: 50px;
+        margin-bottom:40px;
         color:$color;
       }
     }
@@ -946,7 +946,7 @@ html{
       }
     }
   }
-  .WX{
+  .WeChat{
     &:hover .WeChat_pic{
       display: block;
     }

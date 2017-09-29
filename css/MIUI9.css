@@ -646,12 +646,10 @@ html {
   .exp_three h2 {
     font-size: 50px;
     margin: 100px 0 40px 0;
-    text-align: center;
-    color: #626262; }
+    text-align: center;  }
   .exp_three .font_three {
     text-align: center;
-    font-size: 18px;
-    color: #626262; }
+    font-size: 18px;  }
 
 .exp_four {
   height: 800px;
@@ -720,6 +718,7 @@ html {
       margin-top: 200px; }
       .exp_six .exp_six_box .epx_six_font h2 {
         font-size: 50px;
+        margin-bottom:40px;
         color: #626262; }
     .exp_six .exp_six_box .font_six {
       font-size: 18px;
@@ -750,6 +749,7 @@ html {
       margin-top: 250px; }
       .exp_seven .exp_seven_box .epx_seven_font h2 {
         font-size: 50px;
+        margin-bottom:40px;
         color: #626262; }
     .exp_seven .exp_seven_box .font_seven {
       font-size: 18px;
@@ -820,9 +820,9 @@ html {
           line-height: 32px; }
           .friend_link .link_ .border_right .link_ul .link_ul_li:hover {
             color: darkorange; }
-  .friend_link .WX:hover .WeChat_pic {
+  .friend_link .WeChat:hover .WeChat_pic {
     display: block; }
-  .friend_link .WX .WeChat_pic {
+  .friend_link .WeChat .WeChat_pic {
     display: none;
     position: absolute;
     top: -164px;

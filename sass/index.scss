@@ -118,32 +118,7 @@ body{
     background-color: #B2B2B2;
   }
 }
-
-//底部
-.content{
-  height: 500px;
-//  border:1px solid red;
-}
-.index-box{
-  width: 1270px;
-  height: 300px;
-  border-bottom:1px solid #ccc;
-  margin: auto;
-}
-.index-three{
-  height: 100px;
-  margin-top: 100px;
-  list-style-type: none;
-
-  li{
-    float:left;
-  }
-
-}
-
-
-
-
+//链接
 .friend_link{
   background: #f1f1f1;
   height: 140px;
@@ -160,18 +135,20 @@ body{
       height: 20px;
       border-right:1px solid #858585;
       text-align: center;
-      //      margin-right: 37px;
       float:left;
 
       a{
         display: inline-block;
         color:#858585;
         &:hover{
+          text-decoration: none;
           color:darkorange;
         }
       }
     }
-    .border_right{
+
+// arrow
+.border_right{
       width: 134px;
       background: url("../img/index_3-1.png") no-repeat;
       background-position: 109px -19px;
@@ -204,7 +181,8 @@ body{
       }
     }
   }
-  .WX{
+// WeChat pic
+.WeChat{
     &:hover .WeChat_pic{
       display: block;
     }
@@ -222,26 +200,26 @@ body{
     text-align: center;
     margin: -33px 0 10px;
     font-size:10px;
-    color:#626262;
+    color:#C5C6C8;
   }
 }
 
 .foot_box{
   height: 253px;
+  background: #fafafa;
 }
 .foot_box ul{
   width: 1300px;
   height: 200px;
-//  border:1px solid brown;
   margin: 100px auto;
   list-style-type: none;
-  border-bottom: #2e6da4;
+  display: inline-block;
+  border-bottom:1px solid #626262;
 }
 .foot_box ul li{
   width:345px;
   float: left;
   margin-left:80px;
-//  border:1px solid green;
 }
 .box_a{
   display: inline-block;
