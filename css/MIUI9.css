@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "myfont";
+  src: url("../font/FZLTXHJW.TTF"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "myfont";
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */ }
+
+html {
+  font-size: 10px; }
+
+#MIUI9container {
+  width: 100%;
+  overflow: hidden; }
+
+.navContent {
+  width: 1300px;
+  margin: auto; }
+
+#header {
+  width: 100vw;
+  height: 4rem;
+  background: #000000;
+  line-height: 4rem; }
+  #header a {
+    color: #b3b3b3;
+    text-decoration: none; }
+  #header span {
+    font-size: 2.5rem; }
+  #header ul {
+    float: right;
+    margin: 0; }
+    #header ul li {
+      list-style: none;
+      float: left;
+      margin: 0 1.5rem; }
+      #header ul li:hover a {
+        color: gray; }
+
+.share_container {
+  width: 6rem;
+  height: 20rem;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem; }
+  .share_container .share_sina, .share_container .share_wechat, .share_container .toTop {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #E0E0E0;
+    margin: 1rem 0;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    opacity: .8;
+    color: #ffffff; }
+    .share_container .share_sina:hover, .share_container .share_wechat:hover, .share_container .toTop:hover {
+      background: #b3b3b3; }
+    .share_container .share_sina img, .share_container .share_wechat img, .share_container .toTop img {
+      display: none; }
+    .share_container .share_sina .sina, .share_container .share_wechat .sina, .share_container .toTop .sina {
+      position: relative;
+      left: -17rem;
+      top: -3.5rem; }
+    .share_container .share_sina .wechat, .share_container .share_wechat .wechat, .share_container .toTop .wechat {
+      position: relative;
+      left: -14rem;
+      top: -9rem; }
+
+.content_header {
+  height: 4rem;
+  line-height: 4rem;
+  color: #a0a0a0; }
+  .content_header .title {
+    font-size: 1.8rem;
+    float: left; }
+  .content_header ._active {
+    width: 22rem;
+    height: 4rem;
+    float: right;
+    padding: 1.5rem 0; }
+    .content_header ._active li {
+      list-style: none;
+      float: left;
+      width: 7rem;
+      height: 1rem;
+      line-height: 1rem;
+      text-align: center;
+      border-right: 1px solid #a0a0a0; }
+      .content_header ._active li:last-child {
+        border: none; }
+      .content_header ._active li a {
+        color: #a0a0a0;
+        text-decoration: none; }
+        .content_header ._active li a:hover {
+          color: gray; }
+
+.lightning {
+  width: 100%;
+  height: 80rem;
+  background-color: #010001;
+  color: #ffffff;
+  padding-top: 8rem; }
+  .lightning .lightning_animate {
+    width: 33rem;
+    height: 46rem;
+    margin: auto; }
+  .lightning .lightning_text {
+    width: 50rem;
+    height: 20rem;
+    margin: auto;
+    text-align: center; }
+    .lightning .lightning_text p {
+      font-size: 7.5rem;
+      margin-top: 2rem; }
+    .lightning .lightning_text span {
+      font-size: 2.8rem;
+      letter-spacing: .7rem;
+      color: #999999; }
+
+.pageNav {
+  height: 6rem;
+  border-bottom: 1px solid #cccccc;
+  background: #ffffff;
+  z-index: 999; }
+  .pageNav .pageNavContent {
+    height: 6rem;
+    width: 65rem;
+    margin: auto;
+    line-height: 6rem; }
+    .pageNav .pageNavContent i {
+      font-size: 4.5rem;
+      vertical-align: middle; }
+    .pageNav .pageNavContent span {
+      font-size: 1.6rem;
+      margin: 0 15rem 0 1.5rem;
+      cursor: pointer; }
+      .pageNav .pageNavContent span:last-child {
+        margin: 0 1.5rem; }
+
+.topSpeed {
+  height: auto; }
+  .topSpeed .blueCircle {
+    width: 224px;
+    height: 224px;
+    margin: 10rem auto 1rem auto;
+    background: url("../img/miui_show_48.png"); }
+  .topSpeed .text h2 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem; }
+  .topSpeed .text span {
+    font-size: 1.3rem;
+    color: #999999; }
+  .topSpeed p {
+    font-size: 1.7rem;
+    margin: 2rem 0; }
+  .topSpeed .phoneExample {
+    width: 440px;
+    height: 900px;
+    margin: 10rem auto 4rem auto;
+    background: url("../img/miui_show_271.png") no-repeat;
+    background-size: contain;
+    position: relative; }
+    .topSpeed .phoneExample img {
+      position: relative;
+      top: 43.5rem;
+      left: 11.2rem; }
+      .topSpeed .phoneExample img:first-child {
+        z-index: 2;
+        cursor: pointer; }
+    .topSpeed .phoneExample .bgFlash {
+      position: absolute;
+      left: 9.3rem;
+      top: 41.8rem; }
+  .topSpeed .getMore {
+    height: 1055px;
+    background-color: #000000;
+    margin-top: 15rem;
+    color: #ffffff;
+    padding-top: 70px; }
+    .topSpeed .getMore .getMoreContent {
+      width: 1150px;
+      margin: auto; }
+    .topSpeed .getMore h1 {
+      font-size: 45px; }
+    .topSpeed .getMore img {
+      float: left; }
+    .topSpeed .getMore .getMore_logo {
+      width: 650px;
+      height: 600px;
+      float: left;
+      padding: 200px 0 0 50px; }
+      .topSpeed .getMore .getMore_logo li {
+        list-style: none;
+        float: left; }
+        .topSpeed .getMore .getMore_logo li img {
+          margin: 5rem 3rem 0 2rem; }
+        .topSpeed .getMore .getMore_logo li span {
+          display: inline-block;
+          width: 140px;
+          text-align: center;
+          margin-top: 2rem; }
+  .topSpeed .chooseSearch {
+    height: 800px;
+    background-color: #FAFAFA; }
+  .topSpeed .chooseSearchContent {
+    width: 1060px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid transparent; }
+    .topSpeed .chooseSearchContent .chooseSearchContentText {
+      width: 500px;
+      margin-top: 300px;
+      color: #626262;
+      float: left; }
+      .topSpeed .chooseSearchContent .chooseSearchContentText h1 {
+        font-size: 45px; }
+    .topSpeed .chooseSearchContent img {
+      margin: 72px 120px; }
+  .topSpeed .searchPic {
+    height: 500px;
+    color: #626262;
+    border-bottom: 1px solid #cccccc; }
+    .topSpeed .searchPic .greenCircle {
+      width: 224px;
+      height: 224px;
+      margin: 10rem auto 1rem auto;
+      background: url("../img/miui_show_47.png"); }
+  .topSpeed .fastEfficient {
+    height: 1140px;
+    padding-top: 150px;
+    text-align: center;
+    background: url("../img/miui_show_49.jpg") repeat-x -340px 440px; }
+    .topSpeed .fastEfficient .text {
+      color: #626262; }
+    .topSpeed .fastEfficient img {
+      margin-top: 50px; }
+  .topSpeed .deepSearch {
+    height: 930px;
+    background-color: #FAFAFA;
+    position: relative; }
+    .topSpeed .deepSearch .deepSearchContent {
+      width: 1200px;
+      margin: auto;
+      border: 1px solid transparent; }
+    .topSpeed .deepSearch img {
+      margin-top: 100px; }
+    .topSpeed .deepSearch .text {
+      color: #626262;
+      width: 600px;
+      float: left;
+      margin: 500px 50px 0 0; }
+      .topSpeed .deepSearch .text img {
+        margin: 0; }
+  .topSpeed .papersFile .text {
+    color: #626262;
+    margin-top: 100px; }
+  .topSpeed .papersFile ul {
+    width: 1000px;
+    height: 150px;
+    margin: 100px auto; }
+  .topSpeed .papersFile li {
+    list-style: none;
+    float: left;
+    margin-left: 90px; }
+    .topSpeed .papersFile li span {
+      width: 150px;
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px; }
+  .topSpeed .printScreen {
+    height: 882px;
+    background-color: #FAFAFA;
+    overflow: hidden; }
+    .topSpeed .printScreen img {
+      margin-top: 100px; }
+    .topSpeed .printScreen .printScreenContent {
+      width: 1200px;
+      margin: auto; }
+    .topSpeed .printScreen .text {
+      width: 500px;
+      float: right;
+      color: #626262;
+      margin: 450px 100px 0 0; }
+      .topSpeed .printScreen .text img {
+        margin-top: 20px; }
