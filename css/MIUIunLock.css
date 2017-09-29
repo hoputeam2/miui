@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+html {
+  font-size: 10px; }
+
+#fulContainer {
+  width: 100%;
+  overflow: hidden; }
+
+.navContent {
+  width: 1300px;
+  margin: auto; }
+
+#header {
+  width: 100vw;
+  height: 4rem;
+  background: #000000;
+  line-height: 4rem;
+  margin: 0; }
+  #header a {
+    color: #b3b3b3;
+    text-decoration: none; }
+  #header span {
+    font-size: 2.5rem; }
+  #header ul {
+    list-style: none;
+    float: right; }
+    #header ul li {
+      float: left;
+      margin: 0 1.5rem; }
+      #header ul li:hover a {
+        color: gray; }
+
+.share_container {
+  width: 6rem;
+  height: 20rem;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem; }
+  .share_container .share_sina, .share_container .share_wechat, .share_container .toTop {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #E0E0E0;
+    margin: 1rem 0;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    opacity: .8;
+    color: #ffffff; }
+    .share_container .share_sina:hover, .share_container .share_wechat:hover, .share_container .toTop:hover {
+      background: #b3b3b3; }
+    .share_container .share_sina img, .share_container .share_wechat img, .share_container .toTop img {
+      display: none; }
+    .share_container .share_sina .sina, .share_container .share_wechat .sina, .share_container .toTop .sina {
+      position: relative;
+      left: -17rem;
+      top: -3.5rem; }
+    .share_container .share_sina .wechat, .share_container .share_wechat .wechat, .share_container .toTop .wechat {
+      position: relative;
+      left: -14rem;
+      top: -9rem; }
+
+.unlock {
+  height: 55rem;
+  background: #358ADB url("../img/bl_apply_1.png") no-repeat center;
+  border: 1px solid #3489DB;
+  color: #F3F3F3;
+  font-size: 1.8rem; }
+  .unlock p {
+    font-size: 6rem;
+    margin-top: 30rem; }
+  .unlock a {
+    color: #F3F3F3;
+    text-decoration: none; }
+  .unlock button {
+    width: 12rem;
+    height: 3.5rem;
+    background: #63A7E3;
+    margin-top: 3rem;
+    border: 1px solid #ffffff; }
+
+.content_body {
+  width: 100vw;
+  height: 25rem;
+  float: left; }
+  .content_body .banners {
+    width: 86rem;
+    height: 5rem;
+    margin: 10rem auto;
+    list-style: none; }
+  .content_body .banners li {
+    float: left;
+    font-size: 1.7rem;
+    line-height: 5rem; }
+    .content_body .banners li .bg {
+      display: inline-block;
+      width: 6rem;
+      height: 5rem;
+      background: url("../img/bl_apply_0.png") no-repeat; }
+    .content_body .banners li .ulock {
+      background-position: 5px -82px; }
+    .content_body .banners li .download {
+      background-position: 5px -175px; }
+    .content_body .banners li .connect {
+      background-position: 5px -275px; }
+    .content_body .banners li .arrow {
+      display: block;
+      float: right;
+      margin-right: 4rem;
+      width: 6rem;
+      height: 5rem;
+      background: url("../img/bl_apply_0.png") no-repeat; }
+
+.foot_links_box {
+  width: 50rem;
+  height: 5rem;
+  margin: 5rem auto 0 auto; }
+
+.footer_on {
+  width: 100vw;
+  height: 13rem;
+  background: #FAFAFA;
+  float: left; }
+  .footer_on .foot_links {
+    list-style: none;
+    text-align: center; }
+    .footer_on .foot_links li {
+      float: left;
+      width: 10rem;
+      font-size: 1.4rem;
+      border-right: 1px solid #D9D9D9; }
+      .footer_on .foot_links li:last-child {
+        border: none;
+        height: 2rem; }
+      .footer_on .foot_links li a {
+        color: #999; }
+        .footer_on .foot_links li a:hover {
+          color: #F78200; }
+  .footer_on p {
+    color: #999;
+    font-size: 12px;
+    text-align: center; }
+  .footer_on .lastchild {
+    background: url("../img/index_3-1.png") no-repeat 90px -17px; }
+  .footer_on .lastchild:hover {
+    background-color: #ffffff;
+    background-position: 90px 6px; }
+  .footer_on .lastchild:hover .secNav {
+    display: block;
+    background: #ffffff; }
+  .footer_on .weixin {
+    height: 2rem; }
+  .footer_on .weixin img {
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+    top: -16rem;
+    left: -1.5rem;
+    display: none; }
+  .footer_on .weixin:hover img {
+    display: block; }
+  .footer_on .secNav {
+    list-style: none;
+    height: 9.4rem;
+    position: relative;
+    top: -11rem;
+    display: none; }
+    .footer_on .secNav li {
+      border: none;
+      height: 3rem;
+      line-height: 3rem; }

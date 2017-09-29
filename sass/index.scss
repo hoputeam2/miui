@@ -1,0 +1,271 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background: #FAFAFA;
+  overflow-x:hidden ;
+}
+
+#fulContainer{
+  width: 100%;
+  overflow: hidden;
+}
+.navContent{
+  width: 1300px;
+  margin: auto;
+}
+#header{
+  width: 100vw;
+  height: 4rem;
+  background: #000000;
+  line-height: 4rem;
+  margin: 0;
+  a{
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  span{
+    font-size: 2.5rem;
+  }
+  ul{
+    list-style: none;
+    float: right;
+    margin-bottom: 0;
+    li{
+      float: left;
+      margin:0 1.5rem;
+      &:hover a{
+        color: gray;
+      }
+    }
+  }
+}
+.share_container{
+  width: 6rem;
+  height: 20rem;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem;
+  .share_sina,.share_wechat,.toTop{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #E0E0E0;
+    margin: 1rem 0;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    opacity: .8;
+    color: #ffffff;
+    &:hover{
+      background: #b3b3b3;
+    }
+    img{
+      display: none;
+    }
+    .sina{
+      position: relative;
+      left:-17rem;
+      top: -3.5rem
+    }
+    .wechat{
+      position: relative;
+      left:-14rem;
+      top: -9rem;
+    }
+  }
+}
+
+//carousel
+.box{
+  width: 1920px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  .box_img{
+    width: 3840px;
+    height: 600px;
+    position: absolute;
+    transition: .8s ease-in-out;
+    .img1{
+      width: 1920px;
+      height: 600px;
+      background: url("../img/img1.png") no-repeat center;
+      float: left;
+    }
+    .img2{
+      width: 1920px;
+      height: 600px;
+      background: url("../img/img2.png") no-repeat center;
+      float: left;
+    }
+  }
+  .circle{
+    width: 80px;
+    position: absolute;
+    bottom:10px;
+    left: 900px;
+  }
+  .circle span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #cecece;
+    float: left;
+  }
+  .circle .on{
+    background-color: #B2B2B2;
+  }
+}
+
+//底部
+.content{
+  height: 500px;
+//  border:1px solid red;
+}
+.index-box{
+  width: 1270px;
+  height: 300px;
+  border-bottom:1px solid #ccc;
+  margin: auto;
+}
+.index-three{
+  height: 100px;
+  margin-top: 100px;
+  list-style-type: none;
+
+  li{
+    float:left;
+  }
+
+}
+
+
+
+
+.friend_link{
+  background: #f1f1f1;
+  height: 140px;
+  border: 1px solid transparent;
+  .link_{
+    line-height: 20px;
+    width: 976px;
+    height: 20px;
+    margin: 57px auto;
+    list-style-type: none;
+    position: relative;
+    .link{
+      width: 120px;
+      height: 20px;
+      border-right:1px solid #858585;
+      text-align: center;
+      //      margin-right: 37px;
+      float:left;
+
+      a{
+        display: inline-block;
+        color:#858585;
+        &:hover{
+          color:darkorange;
+        }
+      }
+    }
+    .border_right{
+      width: 134px;
+      background: url("../img/index_3-1.png") no-repeat;
+      background-position: 109px -19px;
+      border:none;
+      z-index: 22;
+      &:hover{
+        background-color: #ffffff;
+        background-position: 109px 7px;
+      }
+      &:hover ul{
+        display: block;
+      }
+      .link_ul{
+        display: none;
+        width: 134px;
+        height: 96px;
+        background: #ffffff;
+        text-align: center;
+        list-style-type: none;
+        position: absolute;
+        top: -95px;
+        right: 122px;
+        .link_ul_li{
+          color:#626262;
+          line-height: 32px;
+          &:hover{
+            color:darkorange;
+          }
+        }
+      }
+    }
+  }
+  .WX{
+    &:hover .WeChat_pic{
+      display: block;
+    }
+    .WeChat_pic{
+      display: none;
+      position: absolute;
+      top: -129px;
+      width: 120px;
+      height: 120px;
+      background: url("../img/index_89.png") no-repeat center;
+      background-size: contain;
+    }
+  }
+  p{
+    text-align: center;
+    margin: -33px 0 10px;
+    font-size:10px;
+    color:#626262;
+  }
+}
+
+.foot_box{
+  height: 253px;
+}
+.foot_box ul{
+  width: 1300px;
+  height: 200px;
+//  border:1px solid brown;
+  margin: 100px auto;
+  list-style-type: none;
+  border-bottom: #2e6da4;
+}
+.foot_box ul li{
+  width:345px;
+  float: left;
+  margin-left:80px;
+//  border:1px solid green;
+}
+.box_a{
+  display: inline-block;
+  width: 331px;
+  border-right: 1px solid #CAC6C6;
+  color:#858585;
+
+  i{
+    font-style: normal;
+    font-size:20px;
+  }
+  &:hover{
+    text-decoration: none;
+    color:darkorange;
+  }
+}
+.right_none{
+  border-right:0;
+}
+img{
+  vertical-align: middle;
+}
+span{
+  display: inline-block;
+  vertical-align: middle;
+}
+

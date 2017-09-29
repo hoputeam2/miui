@@ -1,0 +1,211 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+html{
+  font-size: 10px;
+}
+#fulContainer{
+  width: 100%;
+  overflow: hidden;
+}
+.navContent{
+    width: 1300px;
+    margin: auto;
+}
+#header{
+  width: 100vw;
+  height: 4rem;
+  background: #000000;
+  line-height: 4rem;
+  margin: 0;
+  a{
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  span{
+    font-size: 2.5rem;
+  }
+  ul{
+    list-style: none;
+    float: right;
+    li{
+      float: left;
+      margin:0 1.5rem;
+      &:hover a{
+        color: gray;
+      }
+    }
+  }
+}
+.share_container{
+  width: 6rem;
+  height: 20rem;
+  position: fixed;
+  right: 6rem;
+  bottom: 6rem;
+  .share_sina,.share_wechat,.toTop{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: .5rem;
+    background: #E0E0E0;
+    margin: 1rem 0;
+    line-height: 3.5rem;
+    font-size: 2rem;
+    opacity: .8;
+    color: #ffffff;
+    &:hover{
+      background: #b3b3b3;
+    }
+    img{
+      display: none;
+    }
+    .sina{
+      position: relative;
+      left:-17rem;
+      top: -3.5rem
+    }
+    .wechat{
+      position: relative;
+      left:-14rem;
+      top: -9rem;
+    }
+  }
+}
+.unlock{
+  height: 55rem;
+  background:#358ADB url("../img/bl_apply_1.png") no-repeat center;
+  border: 1px solid #3489DB;
+  color: #F3F3F3;
+  font-size: 1.8rem;
+  p{
+      font-size: 6rem;
+      margin-top: 30rem;
+  }
+  a{
+    color: #F3F3F3;
+    text-decoration: none;
+  }
+  button{
+      width: 12rem;
+      height: 3.5rem;
+      background: #63A7E3;
+      margin-top: 3rem;
+      border: 1px solid #ffffff;
+  }
+}
+.content_body{
+  width: 100vw;
+  height: 25rem;
+  float: left;
+  .banners{
+    width: 86rem;
+    height: 5rem;
+    margin: 10rem auto;
+    list-style: none;
+  }
+  .banners li{
+    float: left;
+    font-size: 1.7rem;
+    line-height: 5rem;
+    .bg{
+      display: inline-block;
+      width: 6rem;
+      height: 5rem;
+      background: url("../img/bl_apply_0.png") no-repeat;
+    }
+    .ulock{
+      background-position: 5px -82px;
+    }
+    .download{
+      background-position: 5px -175px;
+    }
+    .connect{
+      background-position: 5px -275px;
+    }
+    .arrow{
+      display: block;
+      float: right;
+      margin-right: 4rem;
+      width: 6rem;
+      height: 5rem;
+      background: url("../img/bl_apply_0.png") no-repeat;
+    }
+  }
+}
+.foot_links_box{
+  width: 50rem;
+  height: 5rem;
+  margin: 5rem auto 0 auto;
+}
+.footer_on{
+  width: 100vw;
+  height: 13rem;
+  background: #FAFAFA;
+  float: left;
+  .foot_links{
+    list-style: none;
+    text-align: center;
+    li{
+      float: left;
+      width: 10rem;
+      font-size: 1.4rem;
+      border-right: 1px solid #D9D9D9;
+      &:last-child{
+        border:none;
+        height: 2rem;
+      }
+      a{
+        color: #999;
+        &:hover{
+          color: #F78200;
+        }
+      }
+    }
+  }
+  p{
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+  }
+  .lastchild{
+    background: url("../img/index_3-1.png") no-repeat 90px -17px;
+  }
+  .lastchild:hover{
+    background-color: #ffffff;
+    background-position: 90px 6px;
+  }
+  .lastchild:hover .secNav{
+    display: block;
+    background: #ffffff;
+  }
+
+  .weixin{
+    height: 2rem;
+  }
+  .weixin img{
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+    top: -16rem;
+    left: -1.5rem;
+    display: none;
+  }
+  .weixin:hover img{
+      display: block;
+  }
+  .secNav{
+    list-style: none;
+    height: 9.4rem;
+    position: relative;
+    top: -11rem;
+    display: none;
+    li{
+      border: none;
+      height: 3rem;
+      line-height: 3rem;
+    }
+  }
+
+}
