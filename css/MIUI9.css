@@ -293,298 +293,299 @@ html {
       .topSpeed .printScreen .text img {
         margin-top: 20px; }
 
+/*信息助手 */
 .sys_news_help {
-  height: 690px; }
+    height: 690px; }
 
 .sys_news {
-  margin: 0 auto;
-  width: 1240px;
-  padding: 350px 0 0 0;
-  background: url("../img/miui_show_58.png") no-repeat center 130px;
-  height: 595px; }
-  .sys_news h2 {
+    margin: 0 auto;
+    width: 1240px;
+    padding: 350px 0 0 0;
+    background: url("../img/miui_show_58.png") no-repeat center 130px;
+    height: 595px; }
+.sys_news h2 {
     font-size: 50px;
     color: #626262;
     line-height: 80px;
     text-align: center; }
-  .sys_news h3 {
+.sys_news h3 {
     font-size: 24px;
     color: #626262;
     line-height: 36px;
     text-align: center;
     padding: 0 20px;
     margin-bottom: 30px; }
-  .sys_news p {
+.sys_news p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #626262;
     padding: 0 20px; }
-
+/*常用高频功能 */
 .sys_always_use {
-  height: 840px;
-  background: url("../img/miui_show_102.png") repeat-x center bottom; }
+    height: 840px;
+    background: url("../img/miui_show_102.png") repeat-x center bottom; }
 
 .sys_function {
-  margin: 0 auto;
-  width: 1240px;
-  padding: 270px 80px 0 600px;
-  background: url("../img/29.png") no-repeat 60px 105px;
-  height: 840px; }
-  .sys_function h2 {
+    margin: 0 auto;
+    width: 1240px;
+    padding: 270px 80px 0 600px;
+    background: url("../img/29.png") no-repeat 60px 105px;
+    height: 840px; }
+.sys_function h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #4a4b4d;
     margin-bottom: 20px; }
-  .sys_function p {
+.sys_function p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #4b4c4e;
     padding: 0 10px 40px; }
-  .sys_func_list {
+.sys_func_list {
     list-style: none;
     width: 660px;
     height: 130px;
     margin-left: -65px; }
-    .sys_func_list li {
-      width: 110px;
-      height: 130px;
-      padding-top: 70px;
-      float: left;
-      color: #585858;
-      text-align: center;
-      line-height: 60px; }
-    .sys_func_list .sys_func1 {
-      background: url("../img/miui_show_60.png") no-repeat center top; }
-    .sys_func_list .sys_func2 {
-      background: url("../img/miui_show_61.png") no-repeat center top; }
-    .sys_func_list .sys_func3 {
-      background: url("../img/miui_show_62.png") no-repeat center top; }
-    .sys_func_list .sys_func4 {
-      background: url("../img/miui_show_63.png") no-repeat center top; }
-    .sys_func_list .sys_func5 {
-      background: url("../img/miui_show_64.png") no-repeat center top; }
-    .sys_func_list .sys_func6 {
-      background: url("../img/miui_show_65.png") no-repeat center top; }
-
+.sys_func_list li {
+    width: 110px;
+    height: 130px;
+    padding-top: 70px;
+    float: left;
+    color: #585858;
+    text-align: center;
+    line-height: 60px; }
+.sys_func_list .sys_func1 {
+    background: url("../img/miui_show_60.png") no-repeat center top; }
+.sys_func_list .sys_func2 {
+    background: url("../img/miui_show_61.png") no-repeat center top; }
+.sys_func_list .sys_func3 {
+    background: url("../img/miui_show_62.png") no-repeat center top; }
+.sys_func_list .sys_func4 {
+    background: url("../img/miui_show_63.png") no-repeat center top; }
+.sys_func_list .sys_func5 {
+    background: url("../img/miui_show_64.png") no-repeat center top; }
+.sys_func_list .sys_func6 {
+    background: url("../img/miui_show_65.png") no-repeat center top; }
+/*收藏部分 */
 .sys_focus_collect {
-  height: 960px; }
+    height: 960px; }
 
 .sys_collect {
-  background: url("../img/miui_show_66.png") no-repeat 747px 75px;
-  margin: 0 auto;
-  width: 1240px;
-  padding: 290px 570px 0 70px;
-  height: 960px; }
-  .sys_collect h2 {
+    background: url("../img/miui_show_66.png") no-repeat 747px 75px;
+    margin: 0 auto;
+    width: 1240px;
+    padding: 290px 570px 0 70px;
+    height: 960px; }
+.sys_collect h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #626262;
     margin-bottom: 20px; }
-  .sys_collect p {
+.sys_collect p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #626262;
     padding: 0 50px; }
-
+/*行程预定信息 */
 .sys_order_news {
-  height: 960px;
-  background-color: #f3f5f8; }
+    height: 960px;
+    background-color: #f3f5f8; }
 
 .sys_order {
-  width: 1240px;
-  margin: 0 auto;
-  padding-top: 80px;
-  height: 960px;
-  background: url("../img/miui_show_103.png") no-repeat center bottom; }
-  .sys_order h2 {
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 960px;
+    background: url("../img/miui_show_103.png") no-repeat center bottom; }
+.sys_order h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #595959;
     margin: 0 0 10px 0; }
-  .sys_order p {
+.sys_order p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #595959;
     padding: 0 50px; }
-    .sys_order p span {
-      font-size: 14px;
-      color: #7c878f; }
-
+.sys_order p span {
+    font-size: 14px;
+    color: #7c878f; }
+/*日常所需 */
 .sys_dayneed {
-  height: 811px;
-  border-bottom: 1px solid #eeeeee; }
+    height: 811px;
+    border-bottom: 1px solid #eeeeee; }
 
 .sys_day {
-  width: 1240px;
-  height: 730px;
-  padding-top: 80px;
-  margin: 0 auto; }
-  .sys_day h2 {
+    width: 1240px;
+    height: 730px;
+    padding-top: 80px;
+    margin: 0 auto; }
+.sys_day h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #595959;
     margin-bottom: 100px; }
-  .sys_day_list {
+.sys_day_list {
     list-style: none;
     width: 1240px;
     height: 130px;
     margin: 0;
     padding: 0 20px; }
-    .sys_day_list li {
-      width: 200px;
-      height: 260px;
-      padding-top: 140px;
-      float: left;
-      color: #585858;
-      text-align: center;
-      line-height: 60px; }
-    .sys_day_list .sys_list_1 {
-      background: url("../img/miui_show_69.png") no-repeat center top; }
-    .sys_day_list .sys_list_2 {
-      background: url("../img/miui_show_70.png") no-repeat center top; }
-    .sys_day_list .sys_list_3 {
-      background: url("../img/miui_show_71.png") no-repeat center top; }
-    .sys_day_list .sys_list_4 {
-      background: url("../img/miui_show_72.png") no-repeat center top; }
-    .sys_day_list .sys_list_5 {
-      background: url("../img/miui_show_73.png") no-repeat center top; }
-    .sys_day_list .sys_list_6 {
-      background: url("../img/miui_show_74.png") no-repeat center top; }
-    .sys_day_list .sys_list_7 {
-      background: url("../img/miui_show_75.png") no-repeat center top; }
-    .sys_day_list .sys_list_8 {
-      background: url("../img/miui_show_76.png") no-repeat center top; }
-    .sys_day_list .sys_list_9 {
-      background: url("../img/miui_show_77.png") no-repeat center top; }
-    .sys_day_list .sys_list_10 {
-      background: url("../img/miui_show_78.png") no-repeat center top; }
-    .sys_day_list .sys_list_11 {
-      background: url("../img/miui_show_79.png") no-repeat center top; }
-    .sys_day_list .sys_list_12 {
-      background: url("../img/miui_show_106.png") no-repeat center top; }
-
+.sys_day_list li {
+    width: 200px;
+    height: 260px;
+    padding-top: 140px;
+    float: left;
+    color: #585858;
+    text-align: center;
+    line-height: 60px; }
+.sys_day_list .sys_list_1 {
+    background: url("../img/miui_show_69.png") no-repeat center top; }
+.sys_day_list .sys_list_2 {
+    background: url("../img/miui_show_70.png") no-repeat center top; }
+.sys_day_list .sys_list_3 {
+    background: url("../img/miui_show_71.png") no-repeat center top; }
+.sys_day_list .sys_list_4 {
+    background: url("../img/miui_show_72.png") no-repeat center top; }
+.sys_day_list .sys_list_5 {
+    background: url("../img/miui_show_73.png") no-repeat center top; }
+.sys_day_list .sys_list_6 {
+    background: url("../img/miui_show_74.png") no-repeat center top; }
+.sys_day_list .sys_list_7 {
+    background: url("../img/miui_show_75.png") no-repeat center top; }
+.sys_day_list .sys_list_8 {
+    background: url("../img/miui_show_76.png") no-repeat center top; }
+.sys_day_list .sys_list_9 {
+    background: url("../img/miui_show_77.png") no-repeat center top; }
+.sys_day_list .sys_list_10 {
+    background: url("../img/miui_show_78.png") no-repeat center top; }
+.sys_day_list .sys_list_11 {
+    background: url("../img/miui_show_79.png") no-repeat center top; }
+.sys_day_list .sys_list_12 {
+    background: url("../img/miui_show_106.png") no-repeat center top; }
+/*闪电系统 */
 .sys_title {
-  margin: 0 auto;
-  width: 1240px;
-  height: 600px;
-  background: url("../img/miui_show_80.png") no-repeat center 130px;
-  padding-top: 350px; }
-  .sys_title h2 {
+    margin: 0 auto;
+    width: 1240px;
+    height: 600px;
+    background: url("../img/miui_show_80.png") no-repeat center 130px;
+    padding-top: 350px; }
+.sys_title h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #626262;
     margin: 0; }
-  .sys_title p {
+.sys_title p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #626262;
     padding: 0 20px;
     margin: 0; }
-
+/*应用启动速度快 */
 .sys_open_fast {
-  height: 960px;
-  background-image: url("../img/miui_show_82.jpg"); }
+    height: 960px;
+    background-image: url("../img/miui_show_82.jpg"); }
 
 .sys_fast {
-  width: 1240px;
-  text-align: center;
-  height: 880px;
-  margin: 0 auto;
-  padding-top: 80px; }
-  .sys_fast h2 {
+    width: 1240px;
+    text-align: center;
+    height: 880px;
+    margin: 0 auto;
+    padding-top: 80px; }
+.sys_fast h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #ffffff;
     margin-top: 10px; }
-  .sys_fast p {
+.sys_fast p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #ffffff;
     padding: 0 50px; }
-
+/*视频播放部分 */
 .sys_open_video {
-  width: 900px;
-  height: 508px;
-  margin: 65px auto 0 auto;
-  background-color: black;
-  position: relative; }
-  .sys_open_video video {
+    width: 900px;
+    height: 508px;
+    margin: 65px auto 0 auto;
+    background-color: black;
+    position: relative; }
+.sys_open_video video {
     width: 900px;
     height: 508px; }
 
 .sys_button {
-  width: 70px;
-  height: 70px;
-  left: 415px;
-  top: 219px;
-  position: absolute;
-  border: none;
-  background: url("../img/miui_show_83.png") no-repeat center center;
-  text-indent: -9999px;
-  cursor: pointer; }
+    width: 70px;
+    height: 70px;
+    left: 415px;
+    top: 219px;
+    position: absolute;
+    border: none;
+    background: url("../img/miui_show_83.png") no-repeat center center;
+    text-indent: -9999px;
+    cursor: pointer; }
 
 .sys_close {
-  display: none;
-  cursor: pointer;
-  position: absolute;
-  right: -20px;
-  top: -20px;
-  z-index: 1001; }
-
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: 1001; }
+/*玩游戏和上网快*/
 .sys_play_surf {
-  height: 960px;
-  background: url("../img/miui_show_84.png"); }
+    height: 960px;
+    background: url("../img/miui_show_84.png"); }
 
 .sys_play {
-  width: 1240px;
-  height: 880px;
-  padding-top: 80px;
-  margin: 0 auto; }
-  .sys_play h2 {
+    width: 1240px;
+    height: 880px;
+    padding-top: 80px;
+    margin: 0 auto; }
+.sys_play h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #595959;
     margin-bottom: 10px; }
-  .sys_play p {
+.sys_play p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;
     color: #595959;
     padding: 0 50px; }
-
+/*日常综合使用稳定流畅*/
 .sys_use_fast {
-  background: url("../img/miui_show_85.jpg");
-  height: 960px; }
-
+    background: url("../img/miui_show_85.jpg");
+    height: 960px; }
+/*系统性能优化黑科技*/
 .sys_good {
-  background-color: #79859f;
-  height: 960px; }
+    background-color: #79859f;
+    height: 960px; }
 
 .sys_best {
-  background: url("../img/miui_show_107.png") no-repeat center top;
-  margin: 0 auto;
-  width: 1240px;
-  padding: 110px 0 0 0;
-  height: 850px; }
-  .sys_best h2 {
+    background: url("../img/miui_show_107.png") no-repeat center top;
+    margin: 0 auto;
+    width: 1240px;
+    padding: 110px 0 0 0;
+    height: 850px; }
+.sys_best h2 {
     line-height: 80px;
     text-align: center;
     font-size: 50px;
     color: #ffffff; }
-  .sys_best p {
+.sys_best p {
     line-height: 36px;
     text-align: center;
     font-size: 18px;

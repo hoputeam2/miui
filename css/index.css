@@ -64,40 +64,76 @@ body {
       left: -14rem;
       top: -9rem; }
 
-.box {
-  width: 1920px;
-  height: 600px;
+/*.box {*/
+  /*width: 1920px;*/
+  /*height: 600px;*/
+  /*position: relative;*/
+  /*overflow: hidden; }*/
+  /*.box .box_img {*/
+    /*width: 3840px;*/
+    /*height: 600px;*/
+    /*position: absolute;*/
+    /*transition: .8s ease-in-out; }*/
+    /*.box .box_img .img1 {*/
+      /*width: 1920px;*/
+      /*height: 600px;*/
+      /*background: url("../img/img1.png") no-repeat center;*/
+      /*float: left; }*/
+    /*.box .box_img .img2 {*/
+      /*width: 1920px;*/
+      /*height: 600px;*/
+      /*background: url("../img/img2.png") no-repeat center;*/
+      /*float: left; }*/
+  /*.box .circle {*/
+    /*width: 80px;*/
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 900px; }*/
+  /*.box .circle span {*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*border-radius: 50%;*/
+    /*margin-left: 5px;*/
+    /*background-color: #cecece;*/
+    /*float: left; }*/
+  /*.box .circle .on {*/
+    /*background-color: #B2B2B2; }*/
+
+#box{
+  overflow: hidden;
+}
+#box li{
+  list-style: none;
+  float: left;
+}
+.CarouselList{
+  transition: all .5s ease-in-out;
+}
+.Carousel_bgImg{
+  float: left;
+  cursor: pointer;
+}
+
+.Carousel_btn_list{
+  width: 80px;
+  height: 30px;
   position: relative;
-  overflow: hidden; }
-  .box .box_img {
-    width: 3840px;
-    height: 600px;
-    position: absolute;
-    transition: .8s ease-in-out; }
-    .box .box_img .img1 {
-      width: 1920px;
-      height: 600px;
-      background: url("../img/img1.png") no-repeat center;
-      float: left; }
-    .box .box_img .img2 {
-      width: 1920px;
-      height: 600px;
-      background: url("../img/img2.png") no-repeat center;
-      float: left; }
-  .box .circle {
-    width: 80px;
-    position: absolute;
-    bottom: 10px;
-    left: 900px; }
-  .box .circle span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin-left: 5px;
-    background-color: #cecece;
-    float: left; }
-  .box .circle .on {
-    background-color: #B2B2B2; }
+  top: -30px;
+  margin: auto;
+}
+.Carousel_btn_list span{
+  display:block;
+  float:left;
+  width:15px;
+  height:15px;
+  border-radius:50%;
+  background-color: #cecece;
+  margin-left: 10px;
+}
+.Carousel_btn_list .Carousel_btn_on{
+  background-color: #B2B2B2;
+}
+
 
 .content {
   height: 500px; }
