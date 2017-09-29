@@ -1,0 +1,373 @@
+@charset "utf-8";
+$margin:0 auto;
+$block:block;
+$none:none;
+$inline-block:inline-block;
+
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #F7F7F7; }
+
+//顶部
+#header {
+  width: 960px;
+  height: 100px;
+  margin: $margin;
+//  右边搜索部分
+  .logo {
+    width: 280px;
+    height: 100px;
+    float: left;
+   @at-root .app {
+      background: url("../img/QRCode_tg.png") no-repeat;
+      color: #FC7050;
+      display: $inline-block;
+      height: 21px;
+      line-height: 21px;
+      padding-left: 31px;
+      font-size: 13px;
+      margin-left: 20px;
+      position: relative;
+      &:hover{
+        text-decoration: $none;
+      }
+    }
+  }
+  @at-root .search {
+    width: 339px;
+    height: 84px;
+    padding-top: 25px;
+    float: right;
+//    MIUI下拉菜单
+    @at-root .same {
+      display: $inline-block;
+      z-index: 8;
+      a{
+        text-decoration: $none;
+        color: rgb(124, 124, 124);
+      }
+    }
+    .net{
+      margin-right: 2px;
+      .miui_subnav{
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+        .MIUI{
+          color: rgb(124, 124, 124);
+          z-index: 20;
+          text-decoration: $none;
+        }
+        @at-root .subnav{
+          display: none;
+          list-style: $none;
+          width: 118px;
+          position: absolute;
+          z-index: 10;
+          left: -33px;
+          top: -7px;
+          border-radius: 5px;
+          background-color: #fff;
+          border: 1px solid #d1d1d1;
+          font-size: 13px;
+           li{
+             padding: 5px 0;
+           }
+          .miui_top{
+            height: 39px;
+            line-height: 39px;
+            border-bottom: 1px solid #d1d1d1;
+            background-color: #f8f8f8;
+          }
+        }
+      }
+    }
+
+
+     @at-root .find {
+      border-right: 5px;
+      margin-top: 15px;
+       .search_input {
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
+        outline: $none;
+        width: 335px;
+        border: 2px solid #fc9050;
+        height: 30px; }
+  .search_icon {
+    color: #FC7050;
+    line-height: 30px; }
+}
+}
+}
+
+.app:hover #QR_code {
+display: $block;
+
+}
+#QR_code {
+position: absolute;
+left: -52px;
+top: 35px;
+background-color:#fff ;
+border: 1px solid #FC7050;
+padding: 12px;
+display: $none;
+
+.QR {
+width: 159px;
+height: 159px;
+}
+.scope {
+display: $inline-block;
+padding-left: 14px; }
+}
+
+//导航
+.nav_box {
+height: 50px;
+background: #FD6440;
+@at-root .nav {
+list-style: $none;
+width: 960px;
+margin: 0 auto;
+li {
+  display: $inline-block;
+  height: 50px;
+  a {
+    color: #fff;
+    display: $inline-block;
+    height: 50px;
+    line-height: 32px;
+   &:hover{
+     text-decoration: $inline-block;
+     background: #F75733;
+   }
+  }
+}
+}
+}
+//中间部分
+#content{
+margin:$margin;
+width: 960px;
+}
+.top_tip{
+height: 50px;
+width: 100%;
+}
+.type_all{
+display: $inline-block;
+height: 50px;
+line-height: 50px;
+color: #909090;
+cursor: pointer;
+&:hover{
+color: #F75733;
+}
+}
+.type_search{
+display: $inline-block;
+width: 180px;
+height: 30px;
+line-height: 30px;
+float: right;
+margin: 10px 0;
+border-width: 0;
+background: url("../img/search_txt_1.png") no-repeat;
+padding:3px 0 0 35px;
+font-size: 12px;
+color: #909090;
+outline: $none;
+}
+
+
+#main{
+width: 960px;
+border: 1px solid #D9D9D9;
+height: 335px;
+}
+.logo_part{
+height: 270px;
+padding: 20px 0 10px 0;
+}
+
+.grand_til{
+width: 66px;
+height: 130px;
+float: left;
+color: #252525;
+font-weight: bold;
+font-size: 18px;
+text-align: right;
+line-height: 70px;
+padding: 10px 0 10px 30px;
+}
+.logo_list{
+list-style: $none;
+width: 828px;
+height: 240px;
+float: left;
+margin-left: 20px;
+li{
+display: $inline-block;
+width: 130px;
+margin: 10px 2px 0 6px;
+height: 70px;
+float: left;
+}
+p{
+margin-left: 8px;
+width: 113px;
+height: 60px;
+cursor: pointer;
+}
+}
+//背景图
+.logo_list_1{background: url("../img/pic_logo.png") no-repeat 1px -84px;}
+.logo_list_2{background: url("../img/pic_logo.png") no-repeat -140px -2px;}
+.logo_list_3{background: url("../img/pic_logo.png") no-repeat -281px -2px;}
+.logo_list_4{background: url("../img/pic_logo.png") no-repeat -422px -2px;}
+.logo_list_5{background: url("../img/pic_logo.png") no-repeat -563px -2px;}
+.logo_list_6{background: url("../img/pic_logo.png") no-repeat -704px -2px;}
+.logo_list_7{background: url("../img/pic_logo.png") no-repeat -845px -2px;}
+.logo_list_8{background: url("../img/pic_logo.png") no-repeat -986px -2px;}
+.logo_list_9{background: url("../img/pic_logo.png") no-repeat -1127px -2px;}
+.logo_list_10{background: url("../img/pic_logo.png") no-repeat -1268px -2px;}
+.logo_list_11{background: url("../img/pic_logo.png") no-repeat -1409px -2px;}
+.logo_list_12{background: url("../img/pic_logo.png") no-repeat -1676px -2px;}
+.logo_list_13{background: url("../img/pic_logo.png") no-repeat -1550px -2px;}
+//对勾选择
+.on_choose{
+background: url("../img/choosed.png") no-repeat 96px 42px;
+}
+
+//筛选部分
+.base{
+width: 958px;
+height: 50px;
+padding: 0 0 15px 0;
+}
+.base_til{
+width: 66px;
+height: 50px;
+float: left;
+color: #252525;
+font-weight: bold;
+font-size: 18px;
+text-align: right;
+margin-bottom: 0;
+padding: 0 0 10px 30px;
+}
+.base_detail{
+float: left;
+width: 336px;
+height: 50px;
+margin-bottom: 0;
+padding-left: 50px;
+a{
+display: $inline-block;
+margin: 0 6px;
+color: #1b6cbf;
+font-weight: bold;
+text-decoration: $none;
+}
+span{
+color: #E5E9EE;
+}
+}
+.base_detail a:first-child{
+color: #5C5C5C;
+}
+.base_detail a:hover{
+color: #5C5C5C;
+text-decoration: $none;
+border-bottom:3px solid #E1581D;
+}
+.on_hover{
+border-bottom:3px solid #E1581D;
+}
+
+.brand_phone{
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 14px;
+  line-height: 20px;
+  background-color:#e1581d ;
+  margin: 20px 0 20px 10px;
+  border-radius: 5px;
+}
+//回到顶部
+#goback {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  a{
+    display: block;
+    width: 37px;
+    height: 40px;
+    line-height: 12px;
+    text-align: center;
+    color: #787878;
+    text-decoration: $none;
+    background: url("../img/scrolltop.png") no-repeat 0 0;
+    border-top: 0 #cdcdcd solid;
+    cursor: pointer;
+    &:hover{
+      background: url("../img/scrolltop.png") no-repeat -43px 0;
+    }
+  }
+}
+
+//底部
+.footer{
+
+height: 87px;
+padding: 21px 0 23px;
+border-top: 1px solid #CDCDCD;
+line-height: 1.8;
+color: #7E7E7E;
+background-color: #2F2F2F;
+}
+.foot{
+width: 960px;
+margin: $margin;
+text-align: center;
+font-size: 12px;
+.miui_left{
+float: left;
+}
+@at-root .a_list{
+display: inline;
+a{
+  color: #cdcdcd;
+  text-decoration: $none;
+  padding: 0 4px;
+  &:hover{
+    color: #fff;
+  }
+}
+}
+.Copyright{
+float: right;
+color: #7e7e7e;
+}
+.icp{
+padding-left: 28px;
+color: #7e7e7e;
+}
+}
+
+
+
+
+
+
+
+

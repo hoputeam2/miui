@@ -1,6 +1,27 @@
+@charset "utf-8";
+$margin:0 auto;
+$block:block;
+$none:none;
+$color:#626262;
+$inline-block:inline-block;
 @font-face {
   font-family: "myfont";
   src: url("../font/FZLTXHJW.TTF");
+}
+@mixin font_{
+  text-align: center;
+  color:#626262;
+  font-size:50px;
+}
+@mixin headtwo{
+  line-height: 80px;
+  text-align: center;
+  font-size: 50px;
+}
+@mixin headP{
+  line-height: 36px;
+  text-align: center;
+  font-size: 18px;
 }
 $fontColor:#626262;
 $marginTop:100px;
@@ -362,5 +383,588 @@ html{
         margin-top: 20px;
       }
     }
+  }
+}
+
+
+//信息助手
+.sys_news_help{
+  height: 690px;
+}
+.sys_news{
+  margin: 0 auto;
+  width: 1240px;
+  padding: 350px 0 0 0;
+  background: url("../img/miui_show_58.png") no-repeat center 130px;
+  height: 595px;
+  h2{
+    font-size: 50px;
+    color: #626262;
+    line-height: 80px;
+    text-align: center;
+  }
+  h3{
+    font-size: 24px;
+    color: #626262;
+    line-height: 36px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  p{
+    @include headP;
+    color: #626262;
+    padding: 0 20px;
+  }
+}
+
+//常用高频功能
+.sys_always_use{
+  height: 840px;
+  background: url("../img/miui_show_102.png") repeat-x center bottom;
+}
+.sys_function{
+  margin: $margin;
+  width: 1240px;
+  padding: 270px 80px 0 600px;
+  background:url("../img/29.png") no-repeat 60px 105px;
+  height: 840px;
+  h2{
+    @include headtwo;
+    color: #4a4b4d;
+    margin-bottom: 20px;
+  }
+  p{
+    @include headP;
+    color: #4b4c4e;
+    padding: 0 10px 40px;
+  }
+  @at-root .sys_func_list{
+    list-style: none;
+    width: 660px;
+    height: 130px;
+    margin-left: -65px;
+    li{
+      width: 110px;
+      height: 130px;
+      padding-top: 70px;
+      float: left;
+      color: #585858;
+      text-align: center;
+      line-height: 60px;
+    }
+    .sys_func1{background: url("../img/miui_show_60.png") no-repeat center top}
+    .sys_func2{background: url("../img/miui_show_61.png") no-repeat center top}
+    .sys_func3{background: url("../img/miui_show_62.png") no-repeat center top}
+    .sys_func4{background: url("../img/miui_show_63.png") no-repeat center top}
+    .sys_func5{background: url("../img/miui_show_64.png") no-repeat center top}
+    .sys_func6{background: url("../img/miui_show_65.png") no-repeat center top}
+  }
+}
+//四处收藏
+.sys_focus_collect{
+  height: 960px;
+}
+.sys_collect{
+  background: url("../img/miui_show_66.png") no-repeat 747px 75px;
+  margin: $margin;
+  width: 1240px;
+  padding: 290px 570px 0 70px;
+  height: 960px;
+  h2{
+    @include headtwo;
+    color: #626262;
+    margin-bottom: 20px;
+  }
+  p{
+    @include headP;
+    color: #626262;
+    padding: 0 50px;
+  }
+}
+//行程预定信息
+.sys_order_news{
+  height: 960px;
+  background-color: #f3f5f8;
+}
+.sys_order{
+  width: 1240px;
+  margin: $margin;
+  padding-top: 80px;
+  height: 960px;
+  background: url("../img/miui_show_103.png") no-repeat center bottom;
+  h2{
+    @include headtwo;
+    color: #595959;
+    margin: 0 0 10px 0;
+  }
+  p{
+    @include headP;
+    color: #595959;
+    padding: 0 50px;
+    span{
+      font-size: 14px;
+      color: #7c878f;
+    }
+  }
+
+}
+//聚合，日常所需
+.sys_dayneed{
+  height: 811px;
+  border-bottom: 1px solid #eeeeee;
+}
+.sys_day{
+  width: 1240px;
+  height: 730px;
+  padding-top: 80px;
+  margin: $margin;
+  h2{
+    @include headtwo;
+    color: #595959;
+    margin-bottom: 100px;
+  }
+  @at-root .sys_day_list{
+    list-style: $none;
+    width: 1240px;
+    height: 130px;
+    margin: 0;
+    padding: 0 20px;
+    li{
+      width: 200px;
+      height: 260px;
+      padding-top: 140px;
+      float: left;
+      color: #585858;
+      text-align: center;
+      line-height: 60px;
+    }
+    .sys_list_1{background: url("../img/miui_show_69.png") no-repeat center top}
+    .sys_list_2{background: url("../img/miui_show_70.png") no-repeat center top}
+    .sys_list_3{background: url("../img/miui_show_71.png") no-repeat center top}
+    .sys_list_4{background: url("../img/miui_show_72.png") no-repeat center top}
+    .sys_list_5{background: url("../img/miui_show_73.png") no-repeat center top}
+    .sys_list_6{background: url("../img/miui_show_74.png") no-repeat center top}
+    .sys_list_7{background: url("../img/miui_show_75.png") no-repeat center top}
+    .sys_list_8{background: url("../img/miui_show_76.png") no-repeat center top}
+    .sys_list_9{background: url("../img/miui_show_77.png") no-repeat center top}
+    .sys_list_10{background: url("../img/miui_show_78.png") no-repeat center top}
+    .sys_list_11{background: url("../img/miui_show_79.png") no-repeat center top}
+    .sys_list_12{background: url("../img/miui_show_106.png") no-repeat center top}
+  }
+}
+//闪电系统
+.sys_title{
+  margin: $margin;
+  width: 1240px;
+  height: 600px;
+  background: url("../img/miui_show_80.png") no-repeat center 130px;
+  padding-top: 350px;
+  h2{
+    @include headtwo;
+    color: #626262;
+    margin: 0;
+  }
+  p{
+    @include headP;
+    color: #626262;
+    padding: 0 20px;
+    margin: 0;
+  }
+}
+
+//应用启动速度快
+.sys_open_fast{
+  height: 960px;
+  background-image: url("../img/miui_show_82.jpg");
+}
+.sys_fast{
+  width: 1240px;
+  text-align: center;
+  height: 880px;
+  margin: $margin;
+  padding-top: 80px;
+  h2{
+    @include headtwo;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  p{
+    @include headP;
+    color: #ffffff;
+    padding: 0 50px;
+  }
+}
+.sys_open_video{
+  width: 900px;
+  height: 508px;
+  margin: 65px auto 0 auto;
+  background-color: black;
+  position: relative;
+  video{
+    width: 900px;
+    height: 508px;
+  }
+}
+.sys_button{
+  width: 70px;
+  height: 70px;
+  left: 415px;
+  top: 219px;
+  position: absolute;
+  border: $none;
+  background: url("../img/miui_show_83.png") no-repeat center center;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+.sys_close{
+  display: $none;
+  cursor: pointer;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  z-index: 1001;
+}
+//玩游戏上网快
+.sys_play_surf{
+  height: 960px;
+  background: url("../img/miui_show_84.png");
+}
+.sys_play{
+  width: 1240px;
+  height: 880px;
+  padding-top: 80px;
+  margin: $margin;
+  h2{
+    @include headtwo;
+    color: #595959;
+    margin-bottom: 10px;
+  }
+  p{
+    @include headP;
+    color: #595959;
+    padding: 0 50px;
+  }
+}
+//日常综合使用稳定流畅
+.sys_use_fast{
+  background: url("../img/miui_show_85.jpg");
+  height: 960px;
+}
+
+//系统性能优化黑科技
+.sys_good{
+  background-color: #79859f;
+  height: 960px;
+}
+.sys_best{
+  background: url("../img/miui_show_107.png") no-repeat center top ;
+  margin: 0 auto;
+  width: 1240px;
+  padding: 110px 0 0 0;
+  height: 850px;
+  h2{
+    @include headtwo;
+    color: #ffffff;
+  }
+  p{
+    @include headP;
+    color: #ffffff;
+    padding: 0 20px;
+  }
+}
+
+
+
+.exp_one{
+  height: 500px;
+  border-bottom:1px solid #cccccc;
+
+  .exp_pic{
+    height: 260px;
+    line-height: 362px;
+    text-align: center;
+  }
+  .exp_font{
+    @include font_;
+  }
+  p{
+    font-size:18px;
+    text-align: center;
+    color:$color;
+  }
+}
+.exp_two{
+  height: 600px;
+  h2{
+    @include font_;
+    margin:100px 0 40px 0;
+  }
+  p{
+    text-align: center;
+    font-size:18px;
+    color:$color;
+  }
+  .exp_two_pic{
+    height: 300px;
+    .icon{
+      width: 1043px;
+      height: 300px;
+      line-height: 300px;
+      margin: auto;
+      text-align: center;
+      list-style-type: none;
+      .li_{
+        padding-right: 85px;
+        float:left;
+      }
+      .right{
+        padding:0;
+      }
+    }
+  }
+}
+.exp_three{
+  color:#ffffff;
+  height: 960px;
+  background: url("../img/miui_show_96.png") no-repeat center ;
+  overflow: hidden;
+  .exp_three_pic{
+    width: 1000px;
+    height: 960px;
+    margin:-215px auto;
+    background: url("../img/miui_show_97.png") no-repeat center ;
+  }
+  h2{
+    font-size:50px;
+    margin:100px 0 40px 0;
+    text-align: center;
+    color:$color;
+  }
+  .font_three{
+    text-align: center;
+    font-size:18px;
+    color:$color;
+  }
+}
+.exp_four{
+  height: 800px;
+  background:#F5E9D3;
+  .exp_four_box{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    .epx_four_font{
+      width: 520px;
+      float:left;
+      margin-top: 212px;
+      text-align: center;
+      h2{
+        @include headtwo;
+        color:$color;
+      }
+      p{
+        @include headP;
+        color:$color;
+      }
+    }
+    .epx_four_pic{
+      float:right;
+      margin-top: 104px;
+      width: 365px;
+      height: 774px;
+      background: url("../img/miui_show_98.png") no-repeat right;
+    }
+  }
+}
+.exp_five{
+  height: 880px;
+  .exp_five_box{
+    margin:160px auto;
+    width: 1100px;
+    height: 600px;
+    .epx_five_pic{
+      float:left;
+      width: 544px;
+      height: 690px;
+      background: url("../img/miui_show_99.png") no-repeat center;
+    }
+    .epx_five_font{
+      margin-top: 200px;
+      float:left;
+      text-align: center;
+      h2{
+        @include headtwo;
+        color:$color;
+      }
+      p{
+        font-size: 18px;
+        color:$color;
+      }
+    }
+  }
+}
+.exp_six{
+  height: 785px;
+  background: #B2D4EF;
+  .exp_six_box{
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    .epx_six_font{
+      color:$color;
+      float:left;
+      text-align: center;
+      margin-top: 200px;
+      h2{
+        font-size: 50px;
+        color:$color;
+      }
+    }
+    .font_six{
+      font-size: 18px;
+      color:$color;
+    }
+    .epx_six_pic{
+      width: 980px;
+      height: 785px;
+      background: url("../img/miui_show_100.png") no-repeat center;
+    }
+  }
+}
+.exp_seven{
+  height: 960px;
+  border-bottom:1px solid #d8d2d2;
+  .exp_seven_box{
+    width: 1000px;
+    height: 600px;
+    margin: 100px auto;
+    .epx_seven_pic{
+      width: 418px;
+      height: 846px;
+      background: url("../img/miui_show_101.png") no-repeat center;
+      float: left;
+    }
+    .epx_seven_font{
+      float:right;
+      width: 437px;
+      height: 300px;
+      color:#626262;
+      text-align: center;
+      margin-top: 250px;
+      h2{
+        font-size: 50px;
+        color:$color;
+      }
+    }
+    .font_seven{
+      font-size:18px;
+      color:$color;
+    }
+  }
+}
+//底部
+.foot{
+  height: 150px;
+  background: #ffffff;
+  p{
+    font-size:18px;
+    text-align: center;
+    line-height: 150px;
+    a{
+      cursor: pointer;
+      color:#209FE1;
+      text-decoration: none;
+      &:hover{
+        color:#209FE1;
+      }
+    }
+  }
+}
+//链接
+.friend_link{
+  background: #f1f1f1;
+  height: 140px;
+  border: 1px solid transparent;
+  .link_{
+    line-height: 20px;
+    width: 976px;
+    height: 20px;
+    margin: 57px auto;
+    color: #858585;
+    list-style-type: none;
+    position: relative;
+    .link{
+      width: 120px;
+      height: 20px;
+      border-right:1px solid #858585;
+      text-align: center;
+      float:left;
+
+      a{
+        display: inline-block;
+        color:#858585;
+        &:hover{
+          text-decoration: none;
+          color:darkorange;
+        }
+      }
+    }
+    .border_right{
+      width: 134px;
+      background: url("../img/index_3-1.png") no-repeat;
+      background-position: 109px -19px;
+      border:none;
+      z-index: 22;
+      &:hover{
+
+        background-color: #ffffff;
+        background-position: 109px 7px;
+        text-decoration: none;
+      }
+      &:hover ul{
+        display: block;
+
+      }
+      .link_ul{
+        display: none;
+        width: 134px;
+        height: 96px;
+        background: #ffffff;
+        text-align: center;
+        list-style-type: none;
+        position: absolute;
+        top: -95px;
+        right: 122px;
+        .link_ul_li{
+          color:#626262;
+          line-height: 32px;
+          &:hover{
+            color:darkorange;
+          }
+        }
+      }
+    }
+  }
+  .WX{
+    &:hover .WeChat_pic{
+      display: block;
+    }
+    .WeChat_pic{
+      display: none;
+      position: absolute;
+      top: -164px;
+      left: 108px;
+      width: 150px;
+      height: 150px;
+      background: url("../img/index_89.png") no-repeat center;
+      background-size: contain;
+    }
+  }
+  p{
+    text-align: center;
+    margin: -33px 0 10px;
+    font-size:10px;
+    color:#C5C6C8;
   }
 }
