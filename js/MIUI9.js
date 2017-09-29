@@ -12,7 +12,7 @@ $(function(){
         $(this).find($("img")).css("display","");
     });
     $(".toTop").click(function(){
-        scrollBy(0,-top);
+        scrollTo(0,-top);
     });
 
     $pageNav.find($("span")).eq(0).click(function(){
