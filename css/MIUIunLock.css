@@ -9,7 +9,7 @@ html {
 #fulContainer {
   width: 100%;
   overflow: hidden; }
-
+/*导航样式*/
 .navContent {
   width: 1300px;
   margin: auto; }
@@ -33,7 +33,7 @@ html {
       margin: 0 1.5rem; }
       #header ul li:hover a {
         color: gray; }
-
+/*右下角分享样式*/
 .share_container {
   width: 6rem;
   height: 20rem;
@@ -62,7 +62,7 @@ html {
       position: relative;
       left: -14rem;
       top: -9rem; }
-
+/*中间解锁板块样式*/
 .unlock {
   height: 55rem;
   background: #358ADB url("../img/bl_apply_1.png") no-repeat center;
@@ -82,6 +82,7 @@ html {
     margin-top: 3rem;
     border: 1px solid #ffffff; }
 
+  /*三个服务项样式*/
 .content_body {
   width: 100vw;
   height: 25rem;
@@ -114,6 +115,7 @@ html {
       height: 5rem;
       background: url("../img/bl_apply_0.png") no-repeat; }
 
+    /*底部链接样式*/
 .foot_links_box {
   width: 50rem;
   height: 5rem;

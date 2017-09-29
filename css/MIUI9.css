@@ -20,7 +20,7 @@ html {
 #MIUI9container {
   width: 100%;
   overflow: hidden; }
-
+/*导航样式*/
 .navContent {
   width: 1300px;
   margin: auto; }
@@ -44,7 +44,7 @@ html {
       margin: 0 1.5rem; }
       #header ul li:hover a {
         color: gray; }
-
+/*右下角分享样式*/
 .share_container {
   width: 6rem;
   height: 20rem;
@@ -73,7 +73,7 @@ html {
       position: relative;
       left: -14rem;
       top: -9rem; }
-
+/*子导航栏样式*/
 .content_header {
   height: 4rem;
   line-height: 4rem;
@@ -102,6 +102,7 @@ html {
         .content_header ._active li a:hover {
           color: gray; }
 
+  /*闪电动画模块样式*/
 .lightning {
   width: 100%;
   height: 80rem;
@@ -125,6 +126,7 @@ html {
       letter-spacing: .7rem;
       color: #999999; }
 
+    /*页面导航样式*/
 .pageNav {
   height: 6rem;
   border-bottom: 1px solid #cccccc;
@@ -144,9 +146,10 @@ html {
       cursor: pointer; }
       .pageNav .pageNavContent span:last-child {
         margin: 0 1.5rem; }
-
+/*极速功能模块*/
 .topSpeed {
   height: auto; }
+/*传送门模块*/
   .topSpeed .blueCircle {
     width: 224px;
     height: 224px;
@@ -180,6 +183,7 @@ html {
       position: absolute;
       left: 9.3rem;
       top: 41.8rem; }
+    /*长按直达，即按即得模块*/
   .topSpeed .getMore {
     height: 1055px;
     background-color: #000000;
@@ -208,6 +212,7 @@ html {
           width: 140px;
           text-align: center;
           margin-top: 2rem; }
+        /*进阶选词搜索*/
   .topSpeed .chooseSearch {
     height: 800px;
     background-color: #FAFAFA; }
@@ -234,6 +239,8 @@ html {
       height: 224px;
       margin: 10rem auto 1rem auto;
       background: url("../img/miui_show_47.png"); }
+
+    /*快速查找照片*/
   .topSpeed .fastEfficient {
     height: 1140px;
     padding-top: 150px;
@@ -243,6 +250,8 @@ html {
       color: #626262; }
     .topSpeed .fastEfficient img {
       margin-top: 50px; }
+
+    /*深度查找模块*/
   .topSpeed .deepSearch {
     height: 930px;
     background-color: #FAFAFA;
@@ -260,6 +269,7 @@ html {
       margin: 500px 50px 0 0; }
       .topSpeed .deepSearch .text img {
         margin: 0; }
+      /*证件自动归档*/
   .topSpeed .papersFile .text {
     color: #626262;
     margin-top: 100px; }
@@ -276,6 +286,7 @@ html {
       display: inline-block;
       text-align: center;
       margin-top: 20px; }
+/*截图文字也能搜*/
   .topSpeed .printScreen {
     height: 882px;
     background-color: #FAFAFA;
