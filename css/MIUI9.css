@@ -20,7 +20,7 @@ html {
 #MIUI9container {
   width: 100%;
   overflow: hidden; }
-
+/*导航栏样式*/
 .navContent {
   width: 1300px;
   margin: auto; }
@@ -44,7 +44,7 @@ html {
       margin: 0 1.5rem; }
       #header ul li:hover a {
         color: gray; }
-
+/*分享栏样式*/
 .share_container {
   width: 6rem;
   height: 20rem;
@@ -73,7 +73,7 @@ html {
       position: relative;
       left: -14rem;
       top: -9rem; }
-
+/*子导航样式*/
 .content_header {
   height: 4rem;
   line-height: 4rem;
@@ -101,7 +101,7 @@ html {
         text-decoration: none; }
         .content_header ._active li a:hover {
           color: gray; }
-
+/*闪电动画模块*/
 .lightning {
   width: 100%;
   height: 80rem;
@@ -124,7 +124,7 @@ html {
       font-size: 2.8rem;
       letter-spacing: .7rem;
       color: #999999; }
-
+/*页面导航样式*/
 .pageNav {
   height: 6rem;
   border-bottom: 1px solid #cccccc;
@@ -132,7 +132,7 @@ html {
   z-index: 999; }
   .pageNav .pageNavContent {
     height: 6rem;
-    width: 65rem;
+    width: 68rem;
     margin: auto;
     line-height: 6rem; }
     .pageNav .pageNavContent i {
@@ -144,9 +144,10 @@ html {
       cursor: pointer; }
       .pageNav .pageNavContent span:last-child {
         margin: 0 1.5rem; }
-
+/*急速功能模块*/
 .topSpeed {
   height: auto; }
+/*传送门模块*/
   .topSpeed .blueCircle {
     width: 224px;
     height: 224px;
@@ -180,6 +181,7 @@ html {
       position: absolute;
       left: 9.3rem;
       top: 41.8rem; }
+    /*获得更多模块*/
   .topSpeed .getMore {
     height: 1055px;
     background-color: #000000;
@@ -194,20 +196,22 @@ html {
     .topSpeed .getMore img {
       float: left; }
     .topSpeed .getMore .getMore_logo {
-      width: 650px;
+      width: 670px;
       height: 600px;
       float: left;
       padding: 200px 0 0 50px; }
-      .topSpeed .getMore .getMore_logo li {
-        list-style: none;
-        float: left; }
-        .topSpeed .getMore .getMore_logo li img {
-          margin: 5rem 3rem 0 2rem; }
-        .topSpeed .getMore .getMore_logo li span {
-          display: inline-block;
-          width: 140px;
+        .logoContent{
+          width: 95px;
+          height: 117px;
           text-align: center;
-          margin-top: 2rem; }
+          float: left;
+          margin: 5rem 3rem 0 2rem;
+        }
+        .logoContent img{
+          margin-bottom: 2rem;
+        }
+
+        /*进阶选词搜索*/
   .topSpeed .chooseSearch {
     height: 800px;
     background-color: #FAFAFA; }
@@ -243,6 +247,7 @@ html {
       color: #626262; }
     .topSpeed .fastEfficient img {
       margin-top: 50px; }
+/*深度查找模块*/
   .topSpeed .deepSearch {
     height: 930px;
     background-color: #FAFAFA;
@@ -293,6 +298,7 @@ html {
       .topSpeed .printScreen .text img {
         margin-top: 20px; }
 
+/*信息助手 */
 .sys_news_help {
   height: 690px; }
 
@@ -320,7 +326,7 @@ html {
     font-size: 18px;
     color: #626262;
     padding: 0 20px; }
-
+/*常用高频功能 */
 .sys_always_use {
   height: 840px;
   background: url("../img/miui_show_102.png") repeat-x center bottom; }
@@ -368,7 +374,7 @@ html {
       background: url("../img/miui_show_64.png") no-repeat center top; }
     .sys_func_list .sys_func6 {
       background: url("../img/miui_show_65.png") no-repeat center top; }
-
+/*收藏部分 */
 .sys_focus_collect {
   height: 960px; }
 
@@ -390,7 +396,7 @@ html {
     font-size: 18px;
     color: #626262;
     padding: 0 50px; }
-
+/*行程预定信息 */
 .sys_order_news {
   height: 960px;
   background-color: #f3f5f8; }
@@ -416,7 +422,7 @@ html {
     .sys_order p span {
       font-size: 14px;
       color: #7c878f; }
-
+/*日常所需 */
 .sys_dayneed {
   height: 811px;
   border-bottom: 1px solid #eeeeee; }
@@ -470,7 +476,7 @@ html {
       background: url("../img/miui_show_79.png") no-repeat center top; }
     .sys_day_list .sys_list_12 {
       background: url("../img/miui_show_106.png") no-repeat center top; }
-
+/*闪电系统 */
 .sys_title {
   margin: 0 auto;
   width: 1240px;
@@ -490,7 +496,7 @@ html {
     color: #626262;
     padding: 0 20px;
     margin: 0; }
-
+/*应用启动速度快 */
 .sys_open_fast {
   height: 960px;
   background-image: url("../img/miui_show_82.jpg"); }
@@ -513,7 +519,7 @@ html {
     font-size: 18px;
     color: #ffffff;
     padding: 0 50px; }
-
+/*视频播放部分 */
 .sys_open_video {
   width: 900px;
   height: 508px;
@@ -542,7 +548,7 @@ html {
   right: -20px;
   top: -20px;
   z-index: 1001; }
-
+/*玩游戏和上网快*/
 .sys_play_surf {
   height: 960px;
   background: url("../img/miui_show_84.png"); }
@@ -564,11 +570,11 @@ html {
     font-size: 18px;
     color: #595959;
     padding: 0 50px; }
-
+/*日常综合使用稳定流畅*/
 .sys_use_fast {
   background: url("../img/miui_show_85.jpg");
   height: 960px; }
-
+/*系统性能优化黑科技*/
 .sys_good {
   background-color: #79859f;
   height: 960px; }
@@ -591,6 +597,7 @@ html {
     color: #ffffff;
     padding: 0 20px; }
 
+  /*畅快体验7块*/
 .exp_one {
   height: 500px;
   border-bottom: 1px solid #cccccc; }
@@ -647,11 +654,11 @@ html {
     font-size: 50px;
     margin: 100px 0 40px 0;
     text-align: center;
-    color: #626262; }
+     }
   .exp_three .font_three {
     text-align: center;
     font-size: 18px;
-    color: #626262; }
+     }
 
 .exp_four {
   height: 800px;
@@ -720,6 +727,7 @@ html {
       margin-top: 200px; }
       .exp_six .exp_six_box .epx_six_font h2 {
         font-size: 50px;
+        margin-bottom:40px;
         color: #626262; }
     .exp_six .exp_six_box .font_six {
       font-size: 18px;
@@ -750,11 +758,13 @@ html {
       margin-top: 250px; }
       .exp_seven .exp_seven_box .epx_seven_font h2 {
         font-size: 50px;
+        margin-bottom:40px;
         color: #626262; }
     .exp_seven .exp_seven_box .font_seven {
       font-size: 18px;
       color: #626262; }
 
+    /*底部*/
 .foot {
   height: 150px;
   background: #ffffff; }
@@ -768,7 +778,7 @@ html {
       text-decoration: none; }
       .foot p a:hover {
         color: #209FE1; }
-
+/*链接*/
 .friend_link {
   background: #f1f1f1;
   height: 140px;
@@ -793,6 +803,7 @@ html {
         .friend_link .link_ .link a:hover {
           text-decoration: none;
           color: darkorange; }
+        /*底部二级菜单*/
     .friend_link .link_ .border_right {
       width: 134px;
       background: url("../img/index_3-1.png") no-repeat;
@@ -820,9 +831,10 @@ html {
           line-height: 32px; }
           .friend_link .link_ .border_right .link_ul .link_ul_li:hover {
             color: darkorange; }
-  .friend_link .WX:hover .WeChat_pic {
+          /*微信hover图片*/
+  .friend_link .WeChat:hover .WeChat_pic {
     display: block; }
-  .friend_link .WX .WeChat_pic {
+  .friend_link .WeChat .WeChat_pic {
     display: none;
     position: absolute;
     top: -164px;

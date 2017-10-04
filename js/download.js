@@ -2,6 +2,7 @@
  * Created by Administrator on 2017/9/25.
  */
 $(function(){
+//    品牌logo部分背景的变化
     var idx=0;
     $(".logo_list").find($("li")).click(function(){
         $(".logo_list").find($("li")).css("background-position-y","-2px");
@@ -16,13 +17,13 @@ $(function(){
             }
         }
     });
-//   鼠标悬停
+//   鼠标悬停改变背景
     $(".logo_list").find($("li")).mouseover(function(){
         $(".logo_list").find($("li")).css("background-position-y","-2px");
         $(".logo_list").find($("li")).eq(idx).css("background-position-y","-84px");
         $(this).css("background-position-y","-166px");
     });
-//鼠标移走
+//鼠标移走背景还原
     $(".logo_list").find($("li")).mouseout(function(){
         $(".logo_list").find($("li")).css("background-position-y","-2px");
         $(".logo_list").find($("li")).eq(idx).css("background-position-y","-84px");
@@ -36,12 +37,12 @@ $(function(){
         $(this).attr("class","on_hover");
         $(".base_detail").find($("a")).css("color","#1b6cbf");
         $(this).css("color","#5c5c5c");
-    })
+    });
 
     $(function(){
         $(".MIUI").focus(function(){
             $(".subnav").css("display","block");
-            $(this).css("z-index","999")
+            $(this).css("z-index","999");
             $(".subnav li").mouseover(function(){
                 $(this).css({"color":"#FC7050","z-index":"999"})
             });
