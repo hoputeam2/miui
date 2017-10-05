@@ -1,7 +1,6 @@
 @font-face {
   font-family: "myfont";
   src: url("../font/FZLTXHJW.TTF"); }
-
 * {
   margin: 0;
   padding: 0;
@@ -836,3 +835,5 @@ html {
     margin: -33px 0 10px;
     font-size: 10px;
     color: #C5C6C8; }
+
+/*# sourceMappingURL=MIUI9.css.map */

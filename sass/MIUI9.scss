@@ -4,6 +4,8 @@ $block:block;
 $none:none;
 $color:#626262;
 $inline-block:inline-block;
+$cen:center;
+$top:top;
 @font-face {
   font-family: "myfont";
   src: url("../font/FZLTXHJW.TTF");
@@ -358,7 +360,7 @@ html{
       span{
         width: 150px;
         display: inline-block;
-        text-align: center;
+        text-align: $cen;
         margin-top: 20px;
       }
     }
@@ -395,19 +397,19 @@ html{
   margin: 0 auto;
   width: 1240px;
   padding: 350px 0 0 0;
-  background: url("../img/miui_show_58.png") no-repeat center 130px;
+  background: url("../img/miui_show_58.png") no-repeat $cen 130px;
   height: 595px;
   h2{
     font-size: 50px;
     color: #626262;
     line-height: 80px;
-    text-align: center;
+    text-align: $cen;
   }
   h3{
     font-size: 24px;
     color: #626262;
     line-height: 36px;
-    text-align: center;
+    text-align: $cen;
     padding: 0 20px;
     margin-bottom: 30px;
   }
@@ -421,7 +423,7 @@ html{
 //常用高频功能
 .sys_always_use{
   height: 840px;
-  background: url("../img/miui_show_102.png") repeat-x center bottom;
+  background: url("../img/miui_show_102.png") repeat-x $cen bottom;
 }
 .sys_function{
   margin: $margin;
@@ -450,15 +452,15 @@ html{
       padding-top: 70px;
       float: left;
       color: #585858;
-      text-align: center;
+      text-align: $cen;
       line-height: 60px;
     }
-    .sys_func1{background: url("../img/miui_show_60.png") no-repeat center top}
-    .sys_func2{background: url("../img/miui_show_61.png") no-repeat center top}
-    .sys_func3{background: url("../img/miui_show_62.png") no-repeat center top}
-    .sys_func4{background: url("../img/miui_show_63.png") no-repeat center top}
-    .sys_func5{background: url("../img/miui_show_64.png") no-repeat center top}
-    .sys_func6{background: url("../img/miui_show_65.png") no-repeat center top}
+    .sys_func_scope{background: url("../img/miui_show_60.png") no-repeat $cen $top}
+    .sys_func_pay{background: url("../img/miui_show_61.png") no-repeat $cen $top}
+    .sys_func_card{background: url("../img/miui_show_62.png") no-repeat $cen $top}
+    .sys_func_cal{background: url("../img/miui_show_63.png") no-repeat $cen $top}
+    .sys_func_mark{background: url("../img/miui_show_64.png") no-repeat $cen $top}
+    .sys_func_more{background: url("../img/miui_show_65.png") no-repeat $cen $top}
   }
 }
 //四处收藏
@@ -539,18 +541,18 @@ html{
       text-align: center;
       line-height: 60px;
     }
-    .sys_list_1{background: url("../img/miui_show_69.png") no-repeat center top}
-    .sys_list_2{background: url("../img/miui_show_70.png") no-repeat center top}
-    .sys_list_3{background: url("../img/miui_show_71.png") no-repeat center top}
-    .sys_list_4{background: url("../img/miui_show_72.png") no-repeat center top}
-    .sys_list_5{background: url("../img/miui_show_73.png") no-repeat center top}
-    .sys_list_6{background: url("../img/miui_show_74.png") no-repeat center top}
-    .sys_list_7{background: url("../img/miui_show_75.png") no-repeat center top}
-    .sys_list_8{background: url("../img/miui_show_76.png") no-repeat center top}
-    .sys_list_9{background: url("../img/miui_show_77.png") no-repeat center top}
-    .sys_list_10{background: url("../img/miui_show_78.png") no-repeat center top}
-    .sys_list_11{background: url("../img/miui_show_79.png") no-repeat center top}
-    .sys_list_12{background: url("../img/miui_show_106.png") no-repeat center top}
+    .sys_list_fast{background: url("../img/miui_show_69.png") no-repeat $cen $top}
+    .sys_list_col{background: url("../img/miui_show_70.png") no-repeat $cen $top}
+    .sys_list_can{background: url("../img/miui_show_71.png") no-repeat $cen $top}
+    .sys_list_order{background: url("../img/miui_show_72.png") no-repeat $cen $top}
+    .sys_list_pack{background: url("../img/miui_show_73.png") no-repeat $cen $top}
+    .sys_list_thing{background: url("../img/miui_show_74.png") no-repeat $cen $top}
+    .sys_list_run{background: url("../img/miui_show_75.png") no-repeat $cen $top}
+    .sys_list_pay{background: url("../img/miui_show_76.png") no-repeat $cen $top}
+    .sys_list_status{background: url("../img/miui_show_77.png") no-repeat $cen $top}
+    .sys_list_ball{background: url("../img/miui_show_78.png") no-repeat $cen $top}
+    .sys_list_car{background: url("../img/miui_show_79.png") no-repeat $cen $top}
+    .sys_list_road{background: url("../img/miui_show_106.png") no-repeat $cen $top}
   }
 }
 //闪电系统
@@ -580,7 +582,7 @@ html{
 }
 .sys_fast{
   width: 1240px;
-  text-align: center;
+  text-align: $cen;
   height: 880px;
   margin: $margin;
   padding-top: 80px;
@@ -690,7 +692,7 @@ html{
   }
   p{
     font-size:18px;
-    text-align: center;
+    text-align: $cen;
     color:$color;
   }
 }
@@ -701,7 +703,7 @@ html{
     margin:100px 0 40px 0;
   }
   p{
-    text-align: center;
+    text-align: $cen;
     font-size:18px;
     color:$color;
   }
@@ -712,7 +714,7 @@ html{
       height: 300px;
       line-height: 300px;
       margin: auto;
-      text-align: center;
+      text-align: $cen;
       list-style-type: none;
       .li_{
         padding-right: 85px;
@@ -727,22 +729,22 @@ html{
 .exp_three{
   color:#ffffff;
   height: 960px;
-  background: url("../img/miui_show_96.png") no-repeat center ;
+  background: url("../img/miui_show_96.png") no-repeat $cen ;
   overflow: hidden;
   .exp_three_pic{
     width: 1000px;
     height: 960px;
     margin:-215px auto;
-    background: url("../img/miui_show_97.png") no-repeat center ;
+    background: url("../img/miui_show_97.png") no-repeat $cen ;
   }
   h2{
     font-size:50px;
     margin:100px 0 40px 0;
-    text-align: center;
+    text-align: $cen;
     color:$color;
   }
   .font_three{
-    text-align: center;
+    text-align: $cen;
     font-size:18px;
     color:$color;
   }

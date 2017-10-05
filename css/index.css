@@ -5,7 +5,7 @@
 body {
   background: #FAFAFA;
   overflow-x: hidden; }
-/*导航栏样式*/
+
 #fulContainer {
   width: 100%;
   overflow: hidden; }
@@ -34,7 +34,7 @@ body {
       margin: 0 1.5rem; }
       #header ul li:hover a {
         color: gray; }
-/*分享栏样式*/
+
 .share_container {
   width: 6rem;
   height: 20rem;
@@ -63,45 +63,60 @@ body {
       position: relative;
       left: -14rem;
       top: -9rem; }
-    /*轮播框样式*/
-#box{
-  overflow: hidden;
-}
-#box li{
-  list-style: none;
-  float: left;
-}
-.CarouselList{
-  transition: all .5s ease-in-out;
-}
-.Carousel_bgImg{
-  float: left;
-  cursor: pointer;
-}
 
-.Carousel_btn_list{
-  width: 80px;
-  height: 30px;
+.box {
+  width: 1920px;
+  height: 600px;
   position: relative;
-  top: -30px;
-  margin: auto;
-}
-.Carousel_btn_list span{
-  display:block;
-  float:left;
-  width:15px;
-  height:15px;
-  border-radius:50%;
-  background-color: #cecece;
-  margin-left: 10px;
-}
-.Carousel_btn_list .Carousel_btn_on{
-  background-color: #B2B2B2;
-}
+  overflow: hidden; }
+  .box .box_img {
+    width: 3840px;
+    height: 600px;
+    position: absolute;
+    transition: .8s ease-in-out; }
+    .box .box_img .img1 {
+      width: 1920px;
+      height: 600px;
+      background: url("../img/img1.png") no-repeat center;
+      float: left; }
+    .box .box_img .img2 {
+      width: 1920px;
+      height: 600px;
+      background: url("../img/img2.png") no-repeat center;
+      float: left; }
+  .box .circle {
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    left: 900px; }
+  .box .circle span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: #cecece;
+    float: left; }
+  .box .circle .on {
+    background-color: #B2B2B2; }
 
-/*链接*/
+.content {
+  height: 500px; }
+
+.index-box {
+  width: 1270px;
+  height: 300px;
+  border-bottom: 1px solid #ccc;
+  margin: auto; }
+
+.index-three {
+  height: 100px;
+  margin-top: 100px;
+  list-style-type: none; }
+  .index-three li {
+    float: left; }
+
 .friend_link {
-  background: #FAFAFA;
+  background: #f1f1f1;
   height: 140px;
   border: 1px solid transparent; }
   .friend_link .link_ {
@@ -122,7 +137,6 @@ body {
         color: #858585; }
         .friend_link .link_ .link a:hover {
           color: darkorange; }
-        /*底部小菜单*/
     .friend_link .link_ .border_right {
       width: 134px;
       background: url("../img/index_3-1.png") no-repeat;
@@ -149,10 +163,9 @@ body {
           line-height: 32px; }
           .friend_link .link_ .border_right .link_ul .link_ul_li:hover {
             color: darkorange; }
-          /*微信hover图片*/
-  .friend_link .WeChat:hover .WeChat_pic {
+  .friend_link .WX:hover .WeChat_pic {
     display: block; }
-  .friend_link .WeChat .WeChat_pic {
+  .friend_link .WX .WeChat_pic {
     display: none;
     position: absolute;
     top: -129px;
@@ -164,19 +177,17 @@ body {
     text-align: center;
     margin: -33px 0 10px;
     font-size: 10px;
-    color: #CBCFD6; }
+    color: #626262; }
 
-  /*底部三小块*/
 .foot_box {
   height: 253px; }
 
 .foot_box ul {
   width: 1300px;
-  height: 144px;
-  margin: 122px 280px;
+  height: 200px;
+  margin: 100px auto;
   list-style-type: none;
-  display: inline-block;
-  border-bottom:1px solid #b3b3b3; }
+  border-bottom: #2e6da4; }
 
 .foot_box ul li {
   width: 345px;
