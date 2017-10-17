@@ -3,7 +3,7 @@
  */
 $(function(){
 //    品牌logo部分背景的变化
-    var idx=0;
+    var idx=0;         <!--???-->
     $(".logo_list").find($("li")).click(function(){
         $(".logo_list").find($("li")).css("background-position-y","-2px");
         $(".logo_list").find($("p")).attr("class","");
@@ -42,16 +42,12 @@ $(function(){
     $(function(){
         $(".MIUI").focus(function(){
             $(".subnav").css("display","block");
-            $(this).css("z-index","999");
-            $(".subnav li").mouseover(function(){
-                $(this).css({"color":"#FC7050","z-index":"999"})
-            });
-
         });
         $(".MIUI").blur(function(){
             $(".subnav").css("display","none");
-        })
-    })
+        });
+
+    });
 });
 //回到顶部
 $(function(){
